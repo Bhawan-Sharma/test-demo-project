@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Owl Stylesheets -->
+
+
+    <title>Web Page</title>
+   <style>
+       * {
+	margin: 0;
+	padding: 0;
+        }
+        body {
+            background-position: top;
+            background-color: #fff;
+            font-size: 12px;
+            color: #454545;
+            margin: 0;
+            padding: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        ul {
+            list-style: none;
+            margin: 0px !important;
+        }
+        :focus {
+            outline: none !important;
+            transition: 0.3s;
+        }
+       
+        a:hover {
+            text-decoration: none !important;
+            transition: 0.3s;
+        }
+        a {
+            text-decoration: none;
+        }
+        a img {
+            border: none;
+        }
+        h1 {
+            font-size: 25px;
+            color: #454545;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            font-size: 22px;
+            color: #454545;
+            margin: 0;
+            padding: 0;
+        }
+        h3 {
+            font-size: 20px;
+            color: #454545;
+            margin: 0;
+            padding: 0;
+        }
+        h4 {
+            font-size: 18px;
+            color: #454545;
+            margin: 0;
+            padding: 0;
+        }
+        h5 {
+            font-size: 15px;
+            color: #454545;
+            margin: 0;
+            padding: 0;
+        }
+        h6 {
+            font-size: 14px;
+            color: #454545;
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            color: #454545;
+            margin: 0 !important;
+            padding: 0;
+        }
+        .carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+}
+      .ban-btn {
+
+          color: white;
+          background-color: rgb(39, 165, 39);
+          padding: 11px;
+          
+          text-decoration: none;
+          font-size: 23px;
+          margin: 5px;
+      }
+      :hover.ban-btn{
+        color: white;
+          background-color: rgb(13, 14, 13);
+          padding: 12px;
+          text-decoration: none;
+          font-size: 23px;
+          margin: 5px;
+      }
+      .navbar-nav li:not(:last-child) {
+    border-right: 2px solid rgb(105, 102, 102);
+}
+   </style>
+</head>
+
+
+    <header>
+        <div class="top_hdr">
+            <div class="container">
+            <div class="header-contact">
+                <ul>
+                <li><span><img src="images/phone.png" alt=""></span> <b> For Support </b><a href="#">(+1) 0123456789</a></li>
+                <li><span><img src="images/email.png" alt=""></span><a href="#"> test-sitename56@gmail.com</a></li>
+              </ul>
+              </div>
+            <div class="header-right">
+                <ul>
+                            <li><a target="blanck" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a target="blanck" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>                    
+                    <li><a target="blanck" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <a class="contact-us" href="#">contact us</a>
+              </ul>
+              </div>
+          </div>
+          </div>
+        <div class="scndhdr">
+            <div class="container">
+            <nav class="navbar navbar-expand-lg"> <a class="navbar-brand" href=""><img src="images/logo.png" alt="" style="padding-right: 500px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  
+                </button>
+                <div id="navbarNavDropdown" class="navbar-collapse collapse menu">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="">
+                        <a class="link" href="#">Home</a>
+                    </li>
+                    <li class="">
+                        <a class="nav-link " href="">About us</a>
+                    </li>
+                    
+                    <li class="">
+                        <a class="nav-link" href="">services</a>
+                    </li>
+                    
+                    <li class="">
+                        <a class="nav-link " href="">Location</a>
+                    </li>
+                    
+                    <li class="">
+                        <a class="nav-link" href="">Careers</a>
+                    </li>
+                  </ul>
+              </div>
+              </nav>
+          </div>
+          </div>
+     </header>
+
+     <section class="banner">
+     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" ;">
+              <h1 style="font-size: 50px;color: white;">QSM Janitorial <b style="font-size: 60px; color: rgb(15, 250, 15);">success</b> In Every Projects! </h1>
+              <p style="color: white; padding-bottom: 25px; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facilis tempore</p>
+              <a class="ban-btn"  href=""><b>Read More</b></a>
+             <a class="ban-btn" href=""><b>Contact Us</b></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 style="font-size: 50px;color: white;">QSM Janitorial <b style="font-size: 60px; color: rgb(15, 250, 15);">success</b> In Every Projects! </h1>
+                <p style="color: white; padding-bottom: 25px; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facilis tempore</p>
+                <a class="ban-btn"  href="">Read More</a>
+               <a class="ban-btn" href="">Contact Us</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 style="font-size: 50px;color: white;">QSM Janitorial <b style="font-size: 60px; color: rgb(15, 250, 15);">success</b> In Every Projects! </h1>
+                <p style="color: white; padding-bottom: 25px; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facilis tempore</p>
+                <a class="ban-btn"  href="">Read More</a>
+               <a class="ban-btn" href="">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </section>          
+  
+    <section class="main-service">
+        <div class="container">
+            
+        <div class="head-area">
+                <h3>  Popular Services  </h3>
+                
+            </div>
+            <div class="all-service">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-box">
+                            <span class="offer-ribon">25% off</span>
+                            <a href="">
+                            <div class="service-image">
+                                <span class="image-green">
+                                    <img src="images/home.png" alt="">
+                                    
+                                </span>
+                                <span class="round-image">
+                                <img src="images/round-image.png" alt="">
+                                
+                                </span>
+                            </div>
+                        </a>
+                            <div class="service-dtls">
+                                <h4>Residential Cleaning</h4>
+                                
+                                <div style="height: 80px;position: relative;">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque </p>
+                                </div>
+                                <a class="read-more" href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-box">
+                            <span class="offer-ribon">25% off</span>
+                            <a href="">
+                            <div class="service-image">
+                                <span class="image-green">
+                                  <img src="images/build.png" alt="">
+                                    
+                                </span>
+                                <span class="round-image">
+                                <img src="images/round-image.png" alt="">
+                                
+                                </span>
+                            </div>
+                        </a>
+                            <div class="service-dtls">
+                                <h4>Commericial Cleaning</h4>
+                                
+                                <div style="height: 80px;position: relative;">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque </p>
+                                 </div>
+                                <a class="read-more" href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-box">
+                            <span class="offer-ribon">25% off</span>
+                            <a href="#">
+                            <div class="service-image">
+                                <span class="image-green">
+                                <img src="images/maid.jfif" alt="">
+                                    
+                                </span>
+                                <span class="round-image">
+                                <img src="images/round-image.png" alt="">
+                                
+                                </span>
+                            </div>
+                        </a>
+                            <div class="service-dtls">
+                                <h4>Maid service</h4>
+                                
+                                <div style="height: 80px;position: relative;">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque </p>
+                                </div>
+                                <a class="read-more" href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                                                    
+                    
+                </div>
+            </div>
+                    
+        </div>
+    </section>
+    <section class="middle-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="certified-area">
+                        <div style="display: none;" class="about_us">
+                           <p>The industry of professional cleaning ha<span style="background-color: transparent; font-size: 11.5pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: 400; font-family: Arial; vertical-align: baseline; white-space: pre-wrap;">s been </span><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: 400; font-size: 11pt; font-family: Arial; background-color: #fafafa; vertical-align: baseline; white-space: pre-wrap;">changing at a very rapid pace. At SQM, our staff members are the heart and soul of our high quality services. We provide continuous training programs to our staff and management. Our staff members are given the encouragement and respect they deserve, and motivation is kept high. In this high-turnover industry, we have employees who have been with us for nearly 10 years. We offer our services directly to our clients &ndash; no middlemen. From retail, commercial, industrial cleaning to floor refinishing, carpet cleaning and window cleaning, we have any and all equipment needed to complete any task or requests made by our customers.</span></p>
+                        </div>
+                        <h3>SQM Janitorial - Bringing Excellence In Residential and commercial cleaning services</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aspernatur corrupti perspiciatis harum? Aliquam eligendi nobis eum animi dolor quod provident impedit, atque odit ex suscipit sed earum qui nihil.</p>
+                        <h4>Certified Company</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, necessitatibus temporibvoluptatum aspernatur odit!</p>
+                        <div class="aboutUsDesc"></div>
+                        
+                        <a class="more-read" href="">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class=""><img src="images/2banner.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    
+    <section class="service-area" id="faq_1">
+        <div class="container">
+            <div class="head-area">
+                <h3>Our Services</h3>
+                <span></span>
+            </div>
+            <div class="all-service">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="serv-box">
+                            <span class="offer-ribon">25% off</span>
+                            <a href="">
+                                <div class="serv-image">
+                                    
+                                    <img src="images/cl1.jpeg" style="width: 100%;" alt="">
+                                    
+                                </div>
+                            </a>
+                            <div class="serv-dtls">
+                                <div class="white-box">
+                                    <span class="yellow-box"></span>
+                                </div>
+                                     <h3>hOUSE CLEANING</h3>
+                                <div style="height: 80px;position: relative;">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, maiores voluptas ea ratione voluptatem dolores iure maxime repellendus nihil voluptates placeat repellat veritatis tempore rem fugiat dolor obcaecati ad quibusdam.</p>                                                                    
+                                 </div>
+                                
+                                <a href="">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="serv-box">
+                            <span class="offer-ribon">25% off</span>
+                            <a href="">
+                            <div class="serv-image">
+                                
+                                <img src="images/cl2.jpeg" style="width: 100%;" alt="">
+                               
+                            </div>
+                        </a>
+                            <div class="serv-dtls">
+                                <div class="white-box">
+                                    <span class="yellow-box"></span>
+                                </div>
+                                <h3>APARTMENT CLEANING</h3>
+                                <div style="height: 80px;position: relative;">
+                                                                                                        
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, nisi quisquam officiis mollitia rerum soluta? Sit, saepe maxime? Accusamus tempora rem iure ipsa mollitia nobis aliquam nisi illo animi dolorum!</p>
+                                                                </div>
+                                
+                                <a href="">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="serv-box">
+                            <span class="offer-ribon">25% off</span>
+                            <a href="">
+                            <div class="serv-image">
+                                
+                                <img src="images/cl3.jpeg" style="width: 100%;" alt="">
+                                
+                            </div>
+                        </a>
+                            <div class="serv-dtls">
+                                <div class="white-box">
+                                    <span class="yellow-box"></span>
+                                </div>
+                                <h3>CARPET CLEANING</h3>
+                                <div style="height: 80px;position: relative;">
+                                                                                                        
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, optio in! Dolore, blanditiis? Placeat beatae sit nam tempore asperiores vel accusamus reprehenderit at iste! Sapiente commodi animi omnis facilis sed!</p>
+                                                                </div>
+                                
+                                <a href="">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                                                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="serv-box">
+                            <span class="offer-ribon">25% off</span>
+                            <a href="">
+                            <div class="serv-image">
+                                
+                                <img src="images/cl4.jpeg" style="width: 100%;" alt="">
+                                
+                            </div>
+                        </a>
+                            <div class="serv-dtls">
+                                <div class="white-box">
+                                    <span class="yellow-box"></span>
+                                </div>
+                                <h3>COMMERCIAL CLEANING</h3>
+                                <div style="height: 80px;position: relative;">
+                                                                                                        
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo beatae impedit. Quaerat, reprehenderit! Id voluptate, ex repudiandae iusto, vero recusandae sapiente sint unde quia, culpa earum soluta beatae quisquam.</p>
+                                                                </div>
+                                
+                                <a href="">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="serv-box">
+                            <span class="offer-ribon">25% off</span>
+                            <a href="">
+                            <div class="serv-image">
+                                
+                                <img src="images/cl5.jpeg" style="width: 100%; alt="">
+                         
+                            </div>
+                        </a>
+                            <div class="serv-dtls">
+                                <div class="white-box">
+                                    <span class="yellow-box"></span>
+                                </div>
+                                <h3>RESIDENTIAL CLEANING</h3>
+                                <div style="height: 80px;position: relative;">
+                                                                                                        
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint facilis adipisci illo ab nam dolore eaque assumenda eum, aperiam dicta enim veniam incidunt omnis error, optio, fugiat commodi. Odio, molestias.</p>
+                                                                </div>
+                                
+                                <a href="">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                     </div>
+                      <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="serv-box">
+                            <span class="offer-ribon">25% off</span>
+                            <a href="">
+                            <div class="serv-image">
+                                
+                                <img src="images/cl6.jpeg" style="width: 100%;" alt="">
+
+                            </div>
+                        </a>
+                            <div class="serv-dtls">
+                                <div class="white-box">
+                                    <span class="yellow-box"></span>
+                                </div>
+                                <h3>AFTER RENOVATION</h3>
+                                <div style="height: 80px;position: relative;">
+                                                                                                        
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est sapiente dolore ex ipsa recusandae provident laudantium vitae soluta facere error tempora quia accusamus pariatur tenetur qui minus, asperiores dolor doloremque.</p>
+                                                                </div>
+                                
+                                <a href="">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                                                                                                                                                                    <div class="col-lg-12 text-center">
+                        <a class="view-serv" href="">View All Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="info-box">
+                        <span class="info-icon"><img src="images/lg1.png" alt=""></span>
+                        <span class="info-circel"><img src="images/info.png" alt=""></span>
+                        <h4>10,600 +</h4>
+                        <p>Services Complete</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="info-box">
+                        <span class="info-icon"><img src="images/lg2.png" alt=""></span>
+                        <span class="info-circel"><img src="images/info.png" alt=""></span>
+                        <h4>10,400 +</h4>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="info-box">
+                        <span class="info-icon"><img src="images/lg3.png" alt=""></span>
+                        <span class="info-circel"><img src="images/info.png" alt=""></span>
+                        <h4>6400 +</h4>
+                        <p>Dedicated Employees</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="info-box">
+                        <span class="info-icon"><img src="images/lg4.png" alt=""></span>
+                        <span class="info-circel"><img src="images/info.png" alt=""></span>
+                        <h4>10+</h4>
+                        <p>Years Of Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+                <footer class="main-footer">
+        <div class="contact-area">
+            
+            <div class="container">
+                <div class="con-text">
+                    <h3>Are You Looking For Professional Cleaning Services?</h3>
+                </div>
+                <div class="con-right"> 
+                    
+                    <div><a class="contact-btn" style="background-color: black; ; float: left;" href="">Contact Us</a></div>
+                    <div class="white-area" style="float: right;">
+                        <p><i class="fa fa-phone" aria-hidden="true"></i>Call Us: <a style="font-size: 19px;" href="">(+91) 9876543210</a></p>
+                    </div>
+              </div>
+          </div>
+            <span class="right-white"></span>
+        </div>
+        <div class="top-footer">
+            <div class="container">
+                <div class="about-footer">
+                <a class="fot-logo" href=""><img src="images/fot.png" alt=""></a>
+                
+                
+                <p><i style="font-size: 40px; color: white;"><b>SQM Janitorial</b></i> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quo a, impedit nihil, mollitia enim eum ab ea sunt, sequi nobis necessitatibus libero adipisci assumenda corrupti sed laboriosam ducimus et?</p>
+                          
+            <a class="fot-red-more" href="">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
+                <div class="footer-box quick-link">
+                    <h3 style="padding-left:30px;">Quick Link</h3>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box serv-link">
+                    <h3 style="padding-left:30px;">Services Link</h3>
+                    <ul>
+                                                                    
+                            <li><a href="">House Cleaning</a></li>
+                                                    
+                            
+                            <li><a href="">Apartment Cleaning</a></li>
+                                                    
+                            
+                            <li><a href="">Carpet Cleaning </a></li>
+                                                    
+                            
+                            <li><a href="">Commercial cleaning </a></li>
+                                                    
+                            
+                            <li><a href=""></a>Residential cleaning"></li>
+                                                    
+                            
+                            <li><a href="">After Renovation/a></li>
+                                                    
+           
+                            
+                    </ul>
+                </div>
+                <div class="footer-box get-touch">
+                    <h3>Get in touch</h3>
+                    <p><span>Address : </span>
+                 This is a simple dummy test or address<br> text here show here
+                    </p>
+                    <ul class="contact-yuser">
+                        <li><img src="images/phone.png" alt=""> <span>Phone :</span> <a href="">+91 9876543210</a></li>
+                        <li><img src="images/email.png" alt=""> <span>Email :</span>  <a href=""> test-sitename55@gmail.com</a> </li>
+                    </ul>
+                    <ul class="follow bh" style="float: left;">
+                        <h4>Follow us on </h4><br>
+                         <li><a target="blanck" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                         <li><a target="blanck" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a target="blanck" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                    
+                </div>
+                 
+            </div>
+            
+        </div>
+        <div class="below-footer">
+            <div class="container">
+                <p>© 2019 SQM Janitorial | All Rights Reserved </p>
+
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
